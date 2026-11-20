@@ -12,6 +12,11 @@ export default function Hero({ theme, commerce, stats, dark, onToggleDark }) {
 			<div className="mdx-hero__scrim" />
 			<div className="mdx-hero__glow" />
 
+			{/* Escenario 3D: esferas flotando y piso en perspectiva */}
+			<span className="mdx-hero__orb mdx-hero__orb--a" aria-hidden="true" />
+			<span className="mdx-hero__orb mdx-hero__orb--b" aria-hidden="true" />
+			<span className="mdx-hero__floor" aria-hidden="true" />
+
 			<button
 				type="button"
 				className="mdx-hero__toggle"
